@@ -1,0 +1,20 @@
+{
+  "Deadline": "1m",
+  "DisableAll": true,
+  "Exclude": [
+    "exported \\w+ (\\S*['.]*)([a-zA-Z'.*]*) should have comment or be unexported"
+  ],
+  "Enable": [
+    "deadcode",
+    "gofmt",
+    "golint",
+    "gosimple",
+    "ineffassign",
+    "interfacer",
+    "misspell",
+    "unconvert",
+    "unparam",
+    "unused",
+    "vet"
+  ]
+}
